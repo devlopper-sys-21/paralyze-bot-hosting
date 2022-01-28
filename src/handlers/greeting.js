@@ -52,7 +52,7 @@ const buildGreeting = async (member, type, config, inviterData) => {
   const embed = new MessageEmbed();
   if (config.embed.description) embed.setDescription(await parse(config.embed.description, member, inviterData));
   if (config.embed.color) embed.setColor(config.embed.color);
-  if (config.embed.thumbnail) embed.setThumbnail(member.user.displayAvatarURL());
+  if (config.embed.thumbnail) embed.setThumbnail("https://media.discordapp.net/attachments/936445784470200380/936628708435984464/Paralyze2.png?width=670&height=670");
   if (config.embed.footer) {
     embed.setFooter(await parse(config.embed.footer, member, inviterData));
   }

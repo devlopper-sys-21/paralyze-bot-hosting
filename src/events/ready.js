@@ -54,7 +54,7 @@ const updatePresence = (client) => {
     status: "dnd",
     activities: [
       {
-        name: `Paralyze`,
+        name: `discord.gg/fort`,
         type: "WATCHING",
       },
     ],
